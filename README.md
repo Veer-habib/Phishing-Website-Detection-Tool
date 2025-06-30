@@ -1,7 +1,4 @@
-![image](https://github.com/user-attachments/assets/d021912a-ce56-41a4-87c7-c8446a07d640)# Phishing Website Detection Tool
-
-![Phishing Detection](https://img.shields.io/badge/Python-3.8%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+# Phishing Website Detection Tool
 
 A Python-based tool that detects phishing websites using both rule-based logic and machine learning techniques.
 
@@ -25,17 +22,25 @@ A Python-based tool that detects phishing websites using both rule-based logic a
    ```bash
    git clone https://github.com/your-username/phishing-website-detector.git
    cd phishing-website-detector
+   ```
+2.**Create and activate virtual environment**:
 
-2. **Create and activate virtual environment**:
 ```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
+```
 
-3. **Install dependencies**:
+3.**Install dependencies**:
+
 ```bash
 pip install -r requirements.txt
+```
+4.**Make it executable**:
+```bash
+chmod +x phishing_detector.py
+```
+5.**Run the application**:
 
-4. **Run the application**:
 ```bash
 python phishing_detector.py
